@@ -8,3 +8,37 @@ body,
 html {
   height: 100%;
 }
+
+/* Separate the legend from the map overlay */
+.legend {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.legend div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.legend i {
+  width: 20px;
+  height: 10px;
+  margin-right: 5px;
+}
+/* Separate the legend title */
+.legend .legend-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.popup-5 {
+  background-color: #800080;
+  color: white;
+}
+
+
